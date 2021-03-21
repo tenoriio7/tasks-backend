@@ -39,7 +39,7 @@ public class Task {
 	}
 	
 	public LocalDate getDueDate() {
-		return dueDate;
+		return dueDate; 
 	}
 
 	public void setDueDate(LocalDate dueDate) {
