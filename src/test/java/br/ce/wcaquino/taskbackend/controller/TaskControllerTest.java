@@ -51,7 +51,7 @@ public class TaskControllerTest {
 		try {
 			controller.save(todo);
 		}catch (Exception e) {
-			assertEquals("Fill the due datee", e.getMessage());
+			assertEquals("Fill the due date", e.getMessage());
 
 		}
 		
